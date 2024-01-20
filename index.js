@@ -9,4 +9,10 @@ function showSidebar(){
         console.log("hello")
     }
 
+ function ontap(){
+        const sidebarm=document.querySelector('.sidebar')
+        sidebarm.style.display="none"
+        console.log("hello")
+    }
+
    
