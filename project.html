@@ -4,50 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <title>JatinKaushik-Portfolio</title>
 
     <style>
-        
-        .main {
-            margin-top: 90px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+       
 
-        button {
-            margin-top: 50px;
-            padding: 10px;
-            font-size: 14px;
-            border: none;
-            border-radius: 10px;
+        .back button {
+            padding: 5px 5px;
+            background: transparent;
             color: white;
-            background-color: rgb(35, 185, 35);
-            transition: all 0.3s ease;
+            border: 1px solid #0ef;
+            border-radius: 10px;
+            cursor: pointer;
         }
 
-        button:hover {
-            cursor: pointer;
-            background-color: green;
+        .back button:hover {
+            background: #0ef;
+            border: none;
+            color: white;
+            box-shadow: 0 0 10px #0ef;
         }
     </style>
 </head>
 
 <body>
-    <div class="main">
-        <div class="card" style="width: 18rem;">
-            <img src="./img/todo.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">My Todo App (ReactJs)</h5>
-           
-              <a href="https://jatinkaushik052.github.io/MyTodoApp/" class="btn btn-primary">Preview</a>
+    <div class="navbar">
+        <div class="logo">Jatin Kaushik</div> 
+        <p class="back"><button type="submit"><a style="text-decoration: none; color: white;"
+            href="index.html">Back To Home</button></a></p>    
+        </div>
+    </div>
+    <div class="project" id="project">
+
+        <h1>My <span style="color: #00eff0;">Projects</span></h1>
+        <div class="project-list">
+            <div class="p1" data-aos="zoom-in-up">
+                <h4>Currency Conveter</h4>
+                <img src="img/currency-con.png" alt="CurrencyConverter">
+                <a href="https://jatinkaushik052.github.io/CurrencyConverter/">Preview</a>
             </div>
-          </div>
-        
-            <a href="index.html"><button>Back to Home</button></a>
+            <div class="p1" data-aos="zoom-in-up">
+                <h4>Amazon Clone</h4>
+                <img src="img/ecom.png" alt="amazonClone">
+                <a href="https://jatinkaushik052.github.io/amazon.com/">Preview</a>
+            </div>
+            <div class="p1" data-aos="zoom-in-up">
+                <h4>Coffee Landing Page</h4>
+                <img src="img/coffee.jpg" alt="coffee">
+                <a href="https://jatinkaushik052.github.io/coffee.in/">Preview</a>
+            </div>
+            <div class="p1" data-aos="zoom-in-up">
+                <h4>My Todo App (ReactJs)</h4>
+                <img src="img/todo.png" alt="todo">
+                <a href="https://jatinkaushik052.github.io/MyTodoApp/">Preview</a>
+            </div>
+            <div class="p1" data-aos="zoom-in-up">
+                <h4>Gym Web (ReactJs + Bootstrap)</h4>
+                <img src="img/gymWeb.png" alt="gymWeb">
+                <a href="https://jatinkaushik052.github.io/gymWeb/">Preview</a>
+            </div>
+        </div>
     </div>
 </body>
 
